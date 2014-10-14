@@ -1,3 +1,4 @@
+
 package persistence;
 
 import java.sql.DriverManager;
@@ -6,8 +7,7 @@ import java.sql.SQLException;
 import com.mysql.jdbc.Connection;
 
 public class DBConnection {
-	
-	public DBConnection() {
+public DBConnection() {
 		// TODO Auto-generated constructor stub
 		try {
 			getConnection();
@@ -22,7 +22,7 @@ public class DBConnection {
 			Class.forName("com.mysql.jdbc.Driver");
 			con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/enhanced_della","root","root");
 			System.out.println("Connection Established....");
-		} catch(SQLException sqlEx) {
+		} catch (SQLException sqlEx) {
 			sqlEx.printStackTrace();
 		}
 		return con;
