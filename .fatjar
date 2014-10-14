@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Wed Jun 27 12:07:28 CDT 2007
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=Della10.jar
+manifest.mergeall=true
+manifest.mainclass=della.Main
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=
